@@ -1,0 +1,4 @@
+.status-bar {
+  background-color: #fff;
+  height: 44rpx;
+}

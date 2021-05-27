@@ -1,0 +1,93 @@
+page {
+  /* 禁用色 */
+  --disabledColor : #ccc;
+  /* 边框色 */
+  --borderColor: #e5e5e5;
+  /* 分隔线 */
+  --lineColor: #f0f0f0;
+  /* 背景色 */
+  --bgColor: #fff;
+  --grayBgColor: #f5f5f5;
+  /* 主色调，品牌色 */
+  --primaryColor: #ff7300;
+  --hoverPrimaryColor: #e66800;
+  /* 辅助色 */
+  --secondaryColor: #fff;
+  --hoverSecondaryColor: #f7f7f7;
+  /* 信息/链接 */
+  --linkColor: #1890ff;
+  /* 成功 */
+  --successColor: #52c41a;
+  --hoverSuccessColor: #038a24;
+  /* 提醒 */
+  --warnColor: #fa8c16;
+  /* 失败/出错 */
+  --errorColor: #f5222d;
+  --hoverErrorColor: #c21c07;
+  /* 大标题色 */
+  --hbColor: #000;
+  /* 一级标题色 */
+  --h1Color: #262626;
+  /* 二级标题色 */
+  --h2Color: #262626;
+  /* 三级标题色 */
+  --h3Color: #595959;
+  /* 正文色 */
+  --textColor: #595959;
+  /* 次要文字色 */
+  --otherTextColor: #8c8c8c;
+  /* 辅助文字色 */
+  --subTextColor: #a6a6a6;
+  /* 提示文字颜色 */
+  --tipColor: #888;
+  /* 大标字号 */
+  --hbSize: 48rpx;
+  --hbLineHeight: 64rpx;
+  /* 一级字号 */
+  --h1Size: 40rpx;
+  --h1LineHeight: 56rpx;
+  /* 二级字号 */
+  --h2Size: 36rpx;
+  --h2LineHeight: 52rpx;
+  /* 三级字号 */
+  --h3Size: 32rpx;
+  --h3LineHeight: 48rpx;
+  /* 正文字号 */
+  --textSize: 28rpx;
+  --textLineHeight: 40rpx;
+  /* 次要文字字号 */
+  --otherTextSize: 24rpx;
+  --otherLineHeight: 28rpx;
+  /* 辅助文字字号 */
+  --subTextSize: 24rpx;
+  --subLineHeight: 28rpx;
+  /* 提示文字字号 */
+  --tipSize: 24rpx;
+  --tipLineHeight: 28rpx;
+  /* 小文字字号 */
+  --smallSize: 20rpx;
+  --smallLineHeight: 24rpx;
+  /* 阴影颜色 */
+  --shadowColor: rgba(0, 0, 0, .4);
+  /* 深度/阴影 */
+  --depthS: 0 2rpx 8rpx rgba(0, 0, 0, 0.1);
+  --depthM: 0 8rpx 16rpx rgba(0, 0, 0, 0.14);
+  --depthL: 0 16rpx 32rpx rgba(0, 0, 0, 0.14);
+  --depthXL: 0 32rpx 64rpx rgba(0, 0, 0, 0.22);
+  /* 圆角 */
+  --radiusS: 4rpx;
+  --radiusM: 8rpx;
+  --radiusL: 16rpx;
+  --radiusXL: 32rpx;
+  --radiusHalf: 50%;
+  /* 间距 */
+  --spaceS: 4rpx;
+  --spaceM: 8rpx;
+  --spaceL: 16rpx;
+  --spaceXL: 24rpx;
+  /* 尺寸 */
+  --sizeS: 56rpx;
+  --sizeM: 64rpx;
+  --sizeL: 72rpx;
+  --sizeXL: 80rpx;
+}

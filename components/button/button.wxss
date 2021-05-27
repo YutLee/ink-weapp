@@ -1,0 +1,106 @@
+@import '../../theme.wxss'
+
+.yos-button {
+  font-size: var(--textSize);
+  color: var(--textColor);
+  background-color: var(--secondaryColor);
+  box-sizing: border-box;
+  border-radius: var(--radiusM);
+  padding: 0 var(--spaceL);
+  box-shadow: var(--depthS);
+}
+
+button.yos-button:not([size='mini']) {
+  width: auto;
+}
+
+button.yos-button[size='S'] {
+  font-size: var(--smallSize);
+  height: var(--sizeS);
+  line-height: var(--sizeS);
+}
+
+button.yos-button[size='M'] {
+  font-size: var(--otherTextSize);
+  height: var(--sizeM);
+  line-height: var(--sizeM);
+}
+
+button.yos-button[size='L'] {
+  height: var(--sizeL);
+  line-height: var(--sizeL);
+}
+
+button.yos-button[size='XL'] {
+  height: var(--sizeXL);
+  line-height: var(--sizeXL);
+}
+
+button.yos-button[size='S'][data-radius='true'] {
+  border-radius: var(--sizeS);
+}
+
+button.yos-button[size='M'][data-radius='true'] {
+  border-radius: var(--sizeM);
+}
+
+button.yos-button[size='L'][data-radius='true'] {
+  border-radius: var(--sizeL);
+}
+
+button.yos-button[size='XL'][data-radius='true'] {
+  border-radius: var(--sizeXL);
+}
+
+button.yos-button[type='primary'] {
+  color: #fff;
+  border: none;
+  background-color: var(--primaryColor);
+}
+
+button.yos-button[type='error'] {
+  color: #fff;
+  border: none;
+  background-color: var(--errorColor);
+}
+
+button.yos-button[type='success'] {
+  color: #fff;
+  border: none;
+  background-color: var(--successColor);
+}
+
+button.yos-button[type='border'] {
+  border: 1rpx solid var(--borderColor);
+  box-shadow: none;
+}
+
+button.yos-button[type='border'] {
+  border: 1rpx solid var(--borderColor);
+  box-shadow: none;
+}
+
+button.yos-button[type='text'] {
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.hover-class, button.yos-button[type='text'].hover-class {
+  background-color: var(--hoverSecondaryColor);
+  box-shadow: none;
+}
+
+button.yos-button[type='primary'].hover-class {
+  background-color: var(--hoverPrimaryColor);
+  box-shadow: none;
+}
+
+button.yos-button[type='success'].hover-class {
+  background-color: var(--hoverSuccessColor);
+  box-shadow: none;
+}
+
+button.yos-button[type='error'].hover-class {
+  background-color: var(--hoverErrorColor);
+  box-shadow: none;
+}

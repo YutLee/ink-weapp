@@ -1,0 +1,24 @@
+<button
+  class="yos-button"
+  data-radius="{{radius}}"
+  size="{{size}}"
+  type="{{type}}"
+  plain="{{plain}}"
+  disabled="{{disabled}}"
+  loading="{{loading}}"
+  form-type="{{formType}}"
+  open-type="{{openType}}"
+  hover-class="hover-class {{hoverClass}}"
+  hover-stop-propagation="{{hoverStopPropagation}}"
+  hover-start-time="{{hoverStartTime}}"
+  hover-stay-time="{{hoverStayTime}}"
+  lang="{{lang}}"
+  session-from="{{sessionFrom}}"
+  send-message-title="{{sendMessageTitle}}"
+  send-message-path="{{sendMessagePath}}"
+  send-message-img="{{sendMessageImg}}"
+  app-parameter="{{appParameter}}"
+  show-message-card="{{showMessageCard}}"
+>
+  <slot></slot>
+</button>

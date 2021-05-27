@@ -1,0 +1,5 @@
+<status-bar></status-bar>
+<view class="custom-nav">
+  <i class="iconfont {{backIcon}}" wx:if="{{backIcon}}" catchtap="onBack"></i>
+  <text><slot></slot></text>
+</view>

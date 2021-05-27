@@ -1,0 +1,29 @@
+<yos-button size="S">普通小按钮</yos-button>
+<yos-button size="M">普通中按钮</yos-button>
+<yos-button size="L">普通大按钮</yos-button>
+<yos-button size="XL">普通加大按钮</yos-button>
+
+<yos-button type="primary" size="S">品牌小按钮</yos-button>
+<yos-button type="primary" size="M">品牌中按钮</yos-button>
+<yos-button type="primary" size="L">品牌大按钮</yos-button>
+<yos-button type="primary" size="XL">品牌加大按钮</yos-button>
+
+<yos-button type="border" size="S">边框小按钮</yos-button>
+<yos-button type="border" size="M">边框中按钮</yos-button>
+<yos-button type="border" size="L">边框大按钮</yos-button>
+<yos-button type="border" size="XL">边框加大按钮</yos-button>
+
+<yos-button type="text" size="S">文字小按钮</yos-button>
+<yos-button type="text" size="M">文字中按钮</yos-button>
+<yos-button type="text" size="L">文字大按钮</yos-button>
+<yos-button type="text" size="XL">文字加大按钮</yos-button>
+
+<yos-button type="error" size="S">错误小按钮</yos-button>
+<yos-button type="error" size="M">错误中按钮</yos-button>
+<yos-button type="error" size="L">错误大按钮</yos-button>
+<yos-button type="error" size="XL">错误加大按钮</yos-button>
+
+<yos-button type="success" size="S">成功小按钮</yos-button>
+<yos-button type="success" size="M">成功中按钮</yos-button>
+<yos-button type="success" size="L">成功大按钮</yos-button>
+<yos-button type="success" size="XL">成功加大按钮</yos-button>
