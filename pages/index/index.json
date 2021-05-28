@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "yos-button": "/components/button/button"
+    "icon": "/components/icon/index",
+    "button": "/components/button/button"
   }
 }

@@ -1,4 +1,4 @@
-@import '../../theme.wxss'
+@import '../../theme.wxss';
 
 .yos-button {
   font-size: var(--textSize);
@@ -103,4 +103,8 @@ button.yos-button[type='success'].hover-class {
 button.yos-button[type='error'].hover-class {
   background-color: var(--hoverErrorColor);
   box-shadow: none;
+}
+
+.button-icon {
+  margin-right: var(--spaceM);
 }

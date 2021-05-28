@@ -1,4 +1,3 @@
-// components/button/button.js
 import BaseComponent from '../../helpers/BaseComponent'
 
 BaseComponent({
@@ -15,9 +14,9 @@ BaseComponent({
       type: String,
       value: ''
     },
-    plain: {
-      type: Boolean,
-      value: false
+    icon: {
+      type: String,
+      value: ''
     },
     disabled: {
       type: Boolean,
@@ -78,17 +77,6 @@ BaseComponent({
     showMessageCard: {
       type: Boolean,
       value: false
-    }
-  },
-  data: {
-    
-  },
-  computed: {
-    
-  },
-  methods: {
-    onTap () {
-
     }
   }
 })

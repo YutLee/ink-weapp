@@ -14,8 +14,10 @@ const BaseComponent = (options = {}) => {
 
   // add default options
   options.options = {
+    virtualHost: true,
     multipleSlots: true,
     addGlobalClass: true,
+    styleIsolation: 'apply-shared',
     ...options.options,
   }
 

@@ -1,0 +1,1 @@
+<view class="yos-class iconfont icon-{{type}}" style="font-size: {{fontSize}}rpx"></view>
