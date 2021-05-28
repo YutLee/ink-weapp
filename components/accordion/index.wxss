@@ -1,0 +1,14 @@
+@import "../../theme.wxss";
+
+.yos-accordion .header {
+  padding: var(--spaceL);
+  font-size: var(--textSize);
+}
+
+.arrow {
+  transition: transform .2s ease;
+}
+
+.arrow.open {
+  transform: rotate(180deg);
+}

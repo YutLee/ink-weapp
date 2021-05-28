@@ -91,3 +91,47 @@ page {
   --sizeL: 72rpx;
   --sizeXL: 80rpx;
 }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex .cell {
+  flex: 1;
+  display: block;
+  max-width: 100%;
+  flex-basis: 0;
+  min-width: 0; /* 必须加上min-width:0; 不然cell里如果使用了elis，则会溢出 */
+  overflow: hidden;
+}
+
+.flex.column {
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.flex.item-c {
+  align-items: center;
+}
+
+.flex.jcc {
+  justify-content: center;
+}
+
+.flex.jcsb {
+  justify-content: space-between;
+}
+
+.elis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.multi-elis {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  display: -webkit-box;
+}

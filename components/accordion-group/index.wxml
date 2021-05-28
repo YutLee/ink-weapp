@@ -1,0 +1,1 @@
+<view class="yos-class yos-accordion-group"><slot></slot></view>

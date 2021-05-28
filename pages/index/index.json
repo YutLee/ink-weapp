@@ -1,6 +1,8 @@
 {
   "usingComponents": {
     "icon": "/components/icon/index",
-    "button": "/components/button/button"
+    "button": "/components/button/button",
+    "accordion-group": "/components/accordion-group/index",
+    "accordion": "/components/accordion/index"
   }
 }

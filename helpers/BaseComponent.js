@@ -1,4 +1,4 @@
-import computedBehavior from '../behaviors/computed'
+import computedBehavior from './computedBehavior'
 
 const BaseComponent = (options = {}) => {
   options.externalClasses = [
