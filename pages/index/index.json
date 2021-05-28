@@ -1,8 +1,10 @@
 {
+  "navigationBarTitleText": "组件Demo",
   "usingComponents": {
     "icon": "/components/icon/index",
     "button": "/components/button/button",
     "accordion-group": "/components/accordion-group/index",
-    "accordion": "/components/accordion/index"
+    "accordion": "/components/accordion/index",
+    "list": "/components/list/index"
   }
 }

@@ -1,0 +1,18 @@
+<button size="S">普通小按钮</button>
+<button size="M">普通中按钮</button>
+<button size="L">普通大按钮</button>
+<button size="XL">普通加大按钮</button>
+
+<button type="primary">品牌大按钮</button>
+
+<button type="border">边框大按钮</button>
+
+<button type="text">文字大按钮</button>
+
+<button type="error">错误大按钮</button>
+
+<button type="success">成功大按钮</button>
+
+<button radius>圆角大按钮</button>
+
+<button icon="gouwuche">图标按钮</button>

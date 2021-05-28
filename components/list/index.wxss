@@ -1,0 +1,24 @@
+@import '../../theme.wxss';
+
+.yos-list {
+  background-color: var(--bgColor);
+  padding: var(--spaceL);
+  font-size: var(--textSize);
+}
+
+.desc, .value {
+  color: var(--subTextColor);
+}
+
+.desc {
+  font-size: var(--subTextSize);
+}
+
+.footer {
+  text-align: right;
+  padding: 0 var(--spaceM);
+}
+
+.arrow {
+  color: var(--subTextColor);
+}

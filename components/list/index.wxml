@@ -1,0 +1,16 @@
+<navigator url="{{url}}" class="yos-class flex item-c yos-list">
+  <image wx:if="{{thumb}}" class="thumb" src="{{thumb}}" />
+  <slot wx:else name="header"></slot>
+  <view class="content cell">
+    <view wx:if="{{label}}" class="label">{{label}}</view>
+    <view wx:if="{{desc}}" class="desc">{{desc}}</view>
+    <slot></slot>
+  </view>
+  <view class="value">
+    <block wx:if="{{value}}">{{value}}</block>
+    <block wx:else>
+      <slot name="value"></slot>
+    </block>
+  </view>
+  <icon yos-class="arrow" type="xiangyou1"></icon>
+</navigator>
