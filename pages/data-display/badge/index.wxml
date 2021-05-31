@@ -1,0 +1,23 @@
+<badge count="{{0}}">
+  <view class="wrap"></view>
+</badge>
+<badge count="{{0}}" showZero="{{true}}">
+  <view class="wrap"></view>
+</badge>
+<badge count="{{8}}">
+  <view class="wrap"></view>
+</badge>
+<badge count="{{100}}">
+  <view class="wrap"></view>
+</badge>
+<badge count="{{12000}}" max="{{999}}">
+  <view class="wrap"></view>
+</badge>
+<view class="no-wrap">
+  <badge count="{{66}}" status="success" wrap="{{false}}"></badge>
+  <badge count="{{12000}}" max="{{999}}" wrap="{{false}}"></badge>
+  <badge status="success" wrap="{{false}}"></badge>
+  <badge status="warn" wrap="{{false}}"></badge>
+  <badge status="error" wrap="{{false}}"></badge>
+  <badge status="info" processing="{{true}}" wrap="{{false}}"></badge>
+</view>

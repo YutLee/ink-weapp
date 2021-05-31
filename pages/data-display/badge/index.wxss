@@ -1,0 +1,19 @@
+page {
+  padding: 50rpx 0;
+}
+
+.wrap {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: #ddd;
+  border-radius: 10rpx;
+  margin-left: 40rpx;
+}
+
+.no-wrap {
+  padding: 20px;
+}
+
+.no-wrap text {
+  margin-left: 20rpx;
+}

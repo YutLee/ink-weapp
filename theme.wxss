@@ -14,8 +14,10 @@ page {
   /* 辅助色 */
   --secondaryColor: #fff;
   --hoverSecondaryColor: #f7f7f7;
-  /* 信息/链接 */
-  --linkColor: #1890ff;
+  /* 链接 */
+  --linkColor: #ff7300;
+   /* 信息 */
+   --infoColor: #1890ff;
   /* 成功 */
   --successColor: #52c41a;
   --hoverSuccessColor: #038a24;

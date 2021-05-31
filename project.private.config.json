@@ -1,4 +1,5 @@
 {
+  "setting": {},
   "condition": {
     "plugin": {
       "list": []
@@ -14,6 +15,12 @@
         {
           "name": "pages/data-display/list/index",
           "pathName": "pages/data-display/list/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/data-display/badge/index",
+          "pathName": "pages/data-display/badge/index",
           "query": "",
           "scene": null
         }

@@ -9,5 +9,6 @@
   <list-group>
     <list label="手风琴" url="/pages/data-display/accordion/index"></list>
     <list label="列表" url="/pages/data-display/list/index"></list>
+    <list label="徽章" url="/pages/data-display/badge/index"></list>
   </list-group>
 </accordion>
