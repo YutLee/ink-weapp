@@ -1,0 +1,15 @@
+page {
+  padding: 20rpx;
+  background-color: var(--bgColor);
+}
+
+view {
+  margin-left: 10rpx;
+}
+
+.title {
+  color: var(--otherTextColor);
+  font-size: var(--textSize);
+  padding: var(--spaceL);
+  display: block;
+}

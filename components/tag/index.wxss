@@ -1,0 +1,69 @@
+@import "../../theme.wxss";
+
+.yos-tag {
+  display: inline-block;
+  font-size: var(--otherTextSize);
+  color: var(--otherTextColor);
+  line-height: var(--otherLineHeight);
+  background-color: var(--grayBgColor);
+  padding: var(--spaceS) var(--spaceM);
+  border-radius: var(--radiusM);
+}
+
+.close {
+  font-size: var(--textSize);
+  margin-left: var(--spaceS);
+  vertical-align: -1rpx;
+}
+
+.success {
+  color: var(--bgColor);
+  background-color: var(--successColor);
+}
+
+.warn {
+  color: var(--bgColor);
+  background-color: var(--warnColor);
+}
+
+.error {
+  color: var(--bgColor);
+  background-color: var(--errorColor);
+}
+
+.info {
+  color: var(--bgColor);
+  background-color: var(--infoColor);
+}
+
+.yos-tag.outline {
+  border: 1rpx solid var(--borderColor);
+}
+
+.success.outline {
+  color: var(--successColor);
+  border-color: var(--successColor);
+  background-color: var(--brightSuccessColor);
+}
+
+.warn.outline {
+  color: var(--warnColor);
+  border-color: var(--warnColor);
+  background-color: var(--brightWarnColor);
+}
+
+.error.outline {
+  color: var(--errorColor);
+  border-color: var(--errorColor);
+  background-color: var(--brightErrorColor);
+}
+
+.info.outline {
+  color: var(--infoColor);
+  border-color: var(--infoColor);
+  background-color: var(--brightInfoColor);
+}
+
+.yos-tag.radius {
+  border-radius: var(--otherLineHeight);
+}

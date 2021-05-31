@@ -1,0 +1,27 @@
+<text class="title">普通标签</text>
+<tag>普通标签</tag>
+<tag status="info">信息标签</tag>
+<tag status="success">成功标签</tag>
+<tag status="warn">警告标签</tag>
+<tag status="error">错误标签</tag>
+<text class="title">带边框标签</text>
+<tag outline="{{true}}">普通标签</tag>
+<tag status="info" outline="{{true}}">信息标签</tag>
+<tag status="success" outline="{{true}}">成功标签</tag>
+<tag status="warn" outline="{{true}}">警告标签</tag>
+<tag status="error" outline="{{true}}">错误标签</tag>
+<text class="title">圆角标签</text>
+<tag radius="{{true}}">圆角标签</tag>
+<tag radius="{{true}}" status="info">信息标签</tag>
+<tag radius="{{true}}" status="success">成功标签</tag>
+<tag radius="{{true}}" status="warn">警告标签</tag>
+<tag radius="{{true}}" status="error">错误标签</tag>
+<text class="title">圆角带边框标签</text>
+<tag radius="{{true}}" outline="{{true}}">普通标签</tag>
+<tag radius="{{true}}" status="info" outline="{{true}}">信息标签</tag>
+<tag radius="{{true}}" status="success" outline="{{true}}">成功标签</tag>
+<tag radius="{{true}}" status="warn" outline="{{true}}">警告标签</tag>
+<tag radius="{{true}}" status="error" outline="{{true}}">错误标签</tag>
+<text class="title">可关闭标签</text>
+<tag closeAble="{{true}}" wx:if="{{show}}" bindclose="onClose">普通标签</tag>
+<tag status="info" bindtap="onToggle">Toggle</tag>

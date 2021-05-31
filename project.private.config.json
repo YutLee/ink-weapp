@@ -23,6 +23,12 @@
           "pathName": "pages/data-display/badge/index",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/data-display/tag/index",
+          "pathName": "pages/data-display/tag/index",
+          "query": "",
+          "scene": null
         }
       ]
     }

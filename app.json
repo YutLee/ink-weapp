@@ -5,7 +5,8 @@
     "pages/data-display/list/index",
     "pages/basic/icon/index",
     "pages/data-display/accordion/index",
-    "pages/data-display/badge/index"
+    "pages/data-display/badge/index",
+    "pages/data-display/tag/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

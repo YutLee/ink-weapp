@@ -18,13 +18,17 @@ page {
   --linkColor: #ff7300;
    /* 信息 */
    --infoColor: #1890ff;
+   --brightInfoColor: #8cc8ff;
   /* 成功 */
   --successColor: #52c41a;
+  --brightSuccessColor: #cafac8;
   --hoverSuccessColor: #038a24;
   /* 提醒 */
   --warnColor: #fa8c16;
+  --brightWarnColor: #ffd591;
   /* 失败/出错 */
   --errorColor: #f5222d;
+  --brightErrorColor: #fcc;
   --hoverErrorColor: #c21c07;
   /* 大标题色 */
   --hbColor: #000;
