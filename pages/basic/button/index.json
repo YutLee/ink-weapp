@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "按钮",
+  "navigationBarTitleText": "Button 按钮",
   "usingComponents": {
     "button": "/components/button/button"
   }

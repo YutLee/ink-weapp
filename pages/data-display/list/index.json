@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "List 列表",
+  "usingComponents": {
+    "list": "/components/list/index",
+    "list-group": "/components/list-group/index"
+  }
+}

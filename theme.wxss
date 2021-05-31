@@ -81,10 +81,11 @@ page {
   --radiusXL: 32rpx;
   --radiusHalf: 50%;
   /* 间距 */
-  --spaceS: 4rpx;
-  --spaceM: 8rpx;
-  --spaceL: 16rpx;
-  --spaceXL: 24rpx;
+  --spaceXS: 4rpx;
+  --spaceS: 8rpx;
+  --spaceM: 16rpx;
+  --spaceL: 24rpx;
+  --spaceXL: 32rpx;
   /* 尺寸 */
   --sizeS: 56rpx;
   --sizeM: 64rpx;

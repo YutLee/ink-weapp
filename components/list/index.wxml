@@ -1,5 +1,6 @@
-<navigator url="{{url}}" class="yos-class flex item-c yos-list">
+<view bindtap="onTap" class="yos-class flex item-c yos-list {{outline ? 'outline' : ''}} {{inGroup ? 'in-group' : ''}} {{disabled ? 'disabled' : ''}}">
   <image wx:if="{{thumb}}" class="thumb" src="{{thumb}}" />
+  <icon wx:elif="{{icon}}" yos-class="icon" type="{{icon}}" />
   <slot wx:else name="header"></slot>
   <view class="content cell">
     <view wx:if="{{label}}" class="label">{{label}}</view>
@@ -12,5 +13,5 @@
       <slot name="value"></slot>
     </block>
   </view>
-  <icon yos-class="arrow" type="xiangyou1"></icon>
-</navigator>
+  <icon wx:if="{{arrow}}" yos-class="arrow" type="xiangyou1"></icon>
+</view>

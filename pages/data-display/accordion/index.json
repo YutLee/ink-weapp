@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Accordion 手风琴",
+  "usingComponents": {
+    "accordion": "/components/accordion/index",
+    "accordion-group": "/components/accordion-group/index"
+  }
+}

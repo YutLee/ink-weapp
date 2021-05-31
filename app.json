@@ -1,7 +1,10 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/basic/button/index"
+    "pages/basic/button/index",
+    "pages/data-display/list/index",
+    "pages/basic/icon/index",
+    "pages/data-display/accordion/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

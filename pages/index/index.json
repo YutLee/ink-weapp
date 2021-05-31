@@ -5,6 +5,7 @@
     "button": "/components/button/button",
     "accordion-group": "/components/accordion-group/index",
     "accordion": "/components/accordion/index",
-    "list": "/components/list/index"
+    "list": "/components/list/index",
+    "list-group": "/components/list-group/index"
   }
 }

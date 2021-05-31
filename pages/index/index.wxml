@@ -1,3 +1,13 @@
 <accordion title="Basic 基础组件">
-  <list label="按钮" desc="普通按钮" value="这是一个普通按钮" url="/pages/basic/button/index"></list>
+  <list-group>
+    <list label="按钮" url="/pages/basic/button/index"></list>
+    <list label="图标" url="/pages/basic/icon/index"></list>
+  </list-group>
+</accordion>
+
+<accordion title="Data Display 数据展示">
+  <list-group>
+    <list label="手风琴" url="/pages/data-display/accordion/index"></list>
+    <list label="列表" url="/pages/data-display/list/index"></list>
+  </list-group>
 </accordion>

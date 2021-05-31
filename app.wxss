@@ -10,7 +10,7 @@
 }  */
 
 page {
-  padding: 10px;
+  /* padding: 10px; */
   background-color: var(--grayBgColor);
   box-sizing: border-box;
 }

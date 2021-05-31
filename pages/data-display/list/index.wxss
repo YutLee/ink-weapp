@@ -1,0 +1,10 @@
+page {
+  padding-bottom: 40rpx;
+}
+
+.title {
+  color: var(--otherTextColor);
+  font-size: var(--textSize);
+  padding: var(--spaceL);
+  display: block;
+}

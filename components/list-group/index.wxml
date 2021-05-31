@@ -1,0 +1,4 @@
+<text wx:if="{{title}}" class="title">{{title}}</text>
+<view class="yos-class yos-list-group {{outline ? 'outline' : ''}}">
+  <slot></slot>
+</view>

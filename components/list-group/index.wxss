@@ -1,0 +1,15 @@
+.yos-list-group.outline {
+  border-top: 1rpx solid var(--borderColor);
+  border-bottom: 1rpx solid var(--borderColor);
+}
+
+.yos-list-group .yos-list {
+  border-bottom: 1rpx solid var(--borderColor);
+}
+
+.title {
+  color: var(--otherTextColor);
+  font-size: var(--textSize);
+  padding: var(--spaceL);
+  display: block;
+}
