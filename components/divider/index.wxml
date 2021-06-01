@@ -1,0 +1,6 @@
+<view class="yos-class yos-divider flex item-c">
+  <view class="line cell"></view>
+  <view class="loading" wx:if="{{loading}}"></view>
+  <slot></slot>
+  <view class="line cell"></view>
+</view>

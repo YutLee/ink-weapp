@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Divider 分隔线",
+  "usingComponents": {
+    "divider": "/components/divider/index"
+  }
+}

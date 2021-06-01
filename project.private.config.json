@@ -29,6 +29,12 @@
           "pathName": "pages/data-display/tag/index",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/data-display/divider/index",
+          "pathName": "pages/data-display/divider/index",
+          "query": "",
+          "scene": null
         }
       ]
     }
