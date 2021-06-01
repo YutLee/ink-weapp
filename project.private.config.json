@@ -41,6 +41,12 @@
           "pathName": "pages/data-display/countdown/index",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/data-display/card/index",
+          "pathName": "pages/data-display/card/index",
+          "query": "",
+          "scene": null
         }
       ]
     }

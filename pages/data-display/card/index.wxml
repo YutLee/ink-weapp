@@ -1,0 +1,40 @@
+<card 
+  thumb="/images/logo.png" 
+  title="卡片" 
+  extra="扩展内容"
+  footer="尾部内容"
+>
+  卡片内容
+</card>
+
+<card 
+  thumb="/images/logo.png" 
+  title="卡片" 
+  extra="扩展内容"
+  footer="尾部内容"
+  full="{{true}}"
+>
+  卡片内容
+</card>
+
+<card 
+  thumb="/images/logo.png" 
+  title="卡片" 
+  extra="扩展内容"
+  footer="尾部内容"
+  outline="{{true}}"
+>
+  卡片内容
+</card>
+
+<card 
+  icon="dianpufill" 
+  title="卡片" 
+  extra="跳转到按钮组件"
+  footer="尾部内容"
+  full="{{true}}"
+  arrow="{{true}}"
+  url="/pages/basic/button/index"
+>
+  卡片内容
+</card>

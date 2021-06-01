@@ -32,8 +32,8 @@
 }
 
 .thumb {
-  width: var(--sizeM);
-  height: var(--sizeM);
+  width: var(--sizeS);
+  height: var(--sizeS);
   margin-right: var(--spaceM);
 }
 

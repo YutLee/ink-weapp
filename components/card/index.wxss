@@ -1,0 +1,33 @@
+@import "../../theme.wxss";
+
+.yos-card {
+  background-color: var(--bgColor);
+}
+
+.header {
+  border-bottom: 1rpx solid var(--borderColor);
+}
+
+.normal {
+  margin: var(--spaceL);
+  border-radius: var(--radiusL);
+  overflow: hidden;
+}
+
+.outline {
+  border: 1rpx solid var(--borderColor);
+}
+
+.content {
+  font-size: var(--textSize);
+  color: var(--textColor);
+  line-height: var(--textLineHeight);
+  padding: var(--spaceL);
+}
+
+.footer {
+  font-size: var(--subTextSize);
+  color: var(--subTextColor);
+  line-height: var(--subLineHeight);
+  padding: var(--spaceM) var(--spaceL);
+}

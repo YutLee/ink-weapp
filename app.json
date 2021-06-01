@@ -8,7 +8,8 @@
     "pages/data-display/badge/index",
     "pages/data-display/tag/index",
     "pages/data-display/divider/index",
-    "pages/data-display/countdown/index"
+    "pages/data-display/countdown/index",
+    "pages/data-display/card/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

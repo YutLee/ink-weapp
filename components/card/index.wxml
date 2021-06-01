@@ -1,0 +1,15 @@
+<view class="yos-class yos-card {{full ? '' : 'normal'}} {{outline ? 'outline' : ''}}">
+  <list 
+    thumb="{{thumb}}" 
+    icon="{{icon}}" 
+    url="{{url}}" 
+    arrow="{{arrow}}" 
+    label="{{title}}" 
+    value="{{extra}}" 
+    yos-class="header"
+  ></list>
+  <view class="content">
+    <slot></slot>
+  </view>
+  <view wx:if="{{footer}}" class="footer">{{footer}}</view>
+</view>
