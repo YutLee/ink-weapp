@@ -1,0 +1,8 @@
+@import "../../theme.wxss";
+
+.yos-countdown {
+  color: var(--textColor);
+  font-size: var(--textSize);
+  line-height: var(--textLineHeight);
+  display: inline-block;
+}

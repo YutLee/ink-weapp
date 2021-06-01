@@ -1,0 +1,1 @@
+<view class="yos-class yos-countdown" bindtap="onTap">{{isCountdown ? countdown : first ? text : reText}}</view>

@@ -1,0 +1,7 @@
+<countdown time="{{60}}" bindstart="onTap" />
+<view>
+  <countdown time="{{10}}" start="{{true}}" re-text="倒计时结束" />
+</view>
+<view>
+  <countdown time="{{500000}}" format="d天h小时m分s秒" start="{{true}}" re-text="倒计时结束" />
+</view>
