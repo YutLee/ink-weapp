@@ -97,6 +97,9 @@ page {
   --sizeM: 64rpx;
   --sizeL: 72rpx;
   --sizeXL: 80rpx;
+  --sizeXXL: 112rpx;
+  --sizeXXXL: 144rpx;
+  --sizeXXXXL: 176rpx;
 }
 
 .flex {

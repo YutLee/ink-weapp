@@ -19,6 +19,7 @@
   send-message-img="{{sendMessageImg}}"
   app-parameter="{{appParameter}}"
   show-message-card="{{showMessageCard}}"
+  bindtap="onTap"
 >
   <icon wx:if="{{icon}}" type="{{icon}}" yos-class="button-icon" />
   <slot></slot>

@@ -1,0 +1,7 @@
+<nothing 
+  icon="zengsong"
+  title="空空如也"
+  desc="暂无相关数据"
+>
+  <button url="/pages/index/index">回到首页</button>
+</nothing>

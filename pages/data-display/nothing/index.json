@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Nothing 缺省",
+  "usingComponents": {
+    "nothing": "/components/nothing/index",
+    "button": "/components/button/index"
+  }
+}

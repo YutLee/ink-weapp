@@ -9,7 +9,8 @@
     "pages/data-display/tag/index",
     "pages/data-display/divider/index",
     "pages/data-display/countdown/index",
-    "pages/data-display/card/index"
+    "pages/data-display/card/index",
+    "pages/data-display/nothing/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,0 +1,33 @@
+@import "../../theme.wxss";
+
+.yos-nothing {
+  height: 100%;
+  text-align: center;
+}
+
+.thumb {
+  width: var(--sizeXXXXL);
+  height: var(--sizeXXXXL);
+  margin-bottom: var(--spaceM);
+}
+
+.icon {
+  color: var(--subTextColor);
+  font-size: var(--sizeXXXXL);
+}
+
+.title {
+  color: var(--h3Color);
+  font-size: var(--h3Size);
+  line-height: var(--h3LineHeight);
+}
+
+.desc {
+  color: var(--subTextColor);
+  font-size: var(--subTextSize);
+  line-height: var(--subLineHeight);
+}
+
+.more {
+  margin-top: var(--spaceM);
+}

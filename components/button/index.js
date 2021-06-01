@@ -77,6 +77,21 @@ BaseComponent({
     showMessageCard: {
       type: Boolean,
       value: false
+    },
+    url: {
+      type: String,
+      value: ''
+    }
+  },
+  methods: {
+    onTap () {
+      const { url } = this.data
+      
+      if (!url)  return
+
+      wx.navigateTo({
+        url
+      })
     }
   }
 })
