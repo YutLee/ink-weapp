@@ -1,6 +1,7 @@
 {
   "component": true,
   "usingComponents": {
-    "status-bar": "/components/status-bar/status-bar"
+    "status-bar": "/components/status-bar/index",
+    "icon": "/components/icon/index"
   }
 }

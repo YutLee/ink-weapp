@@ -1,0 +1,2 @@
+<nav-bar>自定义导航栏</nav-bar>
+<nav-bar status-bar="{{false}}" back-icon="">导航栏</nav-bar>

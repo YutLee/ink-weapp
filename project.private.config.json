@@ -59,6 +59,12 @@
           "pathName": "pages/data-display/timeline/index",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/navigation/nav-bar/index",
+          "pathName": "pages/navigation/nav-bar/index",
+          "query": "",
+          "scene": null
         }
       ]
     }

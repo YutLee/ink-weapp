@@ -11,7 +11,8 @@
     "pages/data-display/countdown/index",
     "pages/data-display/card/index",
     "pages/data-display/nothing/index",
-    "pages/data-display/timeline/index"
+    "pages/data-display/timeline/index",
+    "pages/navigation/nav-bar/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
