@@ -1,0 +1,43 @@
+@import "../../theme.wxss";
+
+.yos-input {
+  background-color: var(--bgColor);
+  font-size: var(--textSize);
+  color: var(--textColor);
+  height: var(--textLineHeight);
+  line-height: var(--textLineHeight);
+}
+
+.outline {
+  border: 1rpx solid var(--borderColor);
+  border-radius: var(--radiusM);
+  padding: var(--spaceM);
+}
+
+.label {
+  margin-right: var(--spaceM);
+}
+
+.clear {
+  margin-left: var(--spaceS);
+}
+
+.error {
+  color: var(--errorColor);
+}
+
+.success {
+  color: var(--successColor);
+}
+
+.outline.error {
+  border-color: var(--errorColor);
+}
+
+.outline.success {
+  border-color: var(--successColor);
+}
+
+.disabled {
+  color: var(--disabledColor);
+}

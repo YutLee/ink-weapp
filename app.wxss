@@ -16,7 +16,7 @@ page {
 }
 
 .title {
-  color: var(--otherTextColor);
+  color: var(--textTextColor);
   font-size: var(--textSize);
   padding: var(--spaceL);
   display: block;

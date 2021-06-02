@@ -13,7 +13,8 @@
     "pages/data-display/nothing/index",
     "pages/data-display/timeline/index",
     "pages/navigation/nav-bar/index",
-    "pages/navigation/tabs/index"
+    "pages/navigation/tabs/index",
+    "pages/data-entry/input/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

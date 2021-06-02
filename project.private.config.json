@@ -71,6 +71,12 @@
           "pathName": "pages/navigation/tabs/index",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/data-entry/input/index",
+          "pathName": "pages/data-entry/input/index",
+          "query": "",
+          "scene": null
         }
       ]
     }

@@ -1,6 +1,7 @@
 .yos-list-group.outline {
   border-top: 1rpx solid var(--borderColor);
   border-bottom: 1rpx solid var(--borderColor);
+  background-color: var(--bgColor);
 }
 
 .yos-list-group .yos-list {

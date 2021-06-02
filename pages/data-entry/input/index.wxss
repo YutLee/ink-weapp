@@ -1,0 +1,7 @@
+.preview {
+  padding: 0 20rpx;
+}
+
+.list-group {
+  margin-bottom: 20rpx;
+}

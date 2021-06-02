@@ -1,0 +1,33 @@
+<view class="title">带边框输入框</view>
+<view class="preview">
+  <input outline="{{true}}" placeholder="带边框输入框" />
+</view>
+<view class="title">带清空输入框</view>
+<view class="preview">
+  <input outline="{{true}}" clear="{{true}}" placeholder="带清空输入框" />
+</view>
+<view class="title">成功输入框</view>
+<view class="preview">
+  <input outline="{{true}}" status="success" placeholder="带边框输入框" />
+</view>
+<view class="title">失败输入框</view>
+<view class="preview">
+  <input outline="{{true}}" status="error" placeholder="带边框输入框" />
+</view>
+<view class="title">不可用输入框</view>
+<view class="preview">
+  <input outline="{{true}}" disabled value="不可用输入框" />
+</view>
+<view class="title">带Label输入框</view>
+<list arrow="{{false}}">
+  <input label="姓名" placeholder="带Label输入框" clear="{{true}}" />
+</list>
+<view class="title">输入框组</view>
+<list-group outline="{{true}}" yos-class="list-group">
+  <list arrow="{{false}}">
+    <input label="账号" placeholder="带Label输入框" clear="{{true}}" />
+  </list>
+  <list arrow="{{false}}">
+    <input label="密码" type="password" placeholder="带Label输入框" clear="{{true}}" />
+  </list>
+</list-group>

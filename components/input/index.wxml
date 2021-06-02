@@ -1,0 +1,33 @@
+<view class="yos-class yos-input flex item-c {{outline ? 'outline' : ''}} {{status}} {{disabled ? 'disabled' : ''}}">
+  <view wx:if="{{label}}" class="label">{{label}}</view>
+  <view class="inner cell">
+    <input 
+      class="input"
+      value="{{value}}"
+      type="{{type}}"
+      password="{{password}}"
+      placeholder="{{placeholder}}"
+      placeholder-style="{{placeholderStyle}}"
+      placeholder-class="{{placeholderClass}}"
+      disabled="{{disabled}}"
+      maxlength="{{maxlength}}"
+      cursor-spacing="{{cursorSpacing}}"
+      auto-focus="{{autoFocus}}"
+      focus="{{focus}}"
+      confirm-type="{{confirmType}}"
+      always-embed="{{alwaysEmbed}}"
+      confirm-hold="{{confirmHold}}"
+      cursor="{{cursor}}"
+      selection-start="{{selectionStart}}"
+      selection-end="{{selectionEnd}}"
+      adjust-position="{{adjustPosition}}"
+      hold-keyboard="{{holdKeyboard}}"
+      bindinput="onInput"
+      bindfocus="onFocus"
+      bindblur="onBlur"
+      bindconfirm="onConfirm"
+    />
+  </view>
+  <icon yos-class="clear" type="guanbi2fill" wx:if="{{clear && showClear}}" bindtap="onClear"></icon>
+  <view wx:if="{{extra}}" class="extra">{{extra}}</view>
+</view>

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "Input 输入框",
+  "usingComponents": {
+    "input": "/components/input/index",
+    "list": "/components/list/index",
+    "list-group": "/components/list-group/index"
+  }
+}

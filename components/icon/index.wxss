@@ -2,4 +2,5 @@
 
 .iconfont {
   display: inline;
+  color: var(--subTextColor);
 }
