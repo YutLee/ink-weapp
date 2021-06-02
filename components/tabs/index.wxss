@@ -1,0 +1,15 @@
+@import "../../theme.wxss";
+
+.yos-tabs {
+  background-color: var(--bgColor);
+}
+
+.yos-tabs.flex {
+  justify-content: space-around;
+}
+
+.yos-tabs.scroll {
+  display: block;
+  overflow: auto;
+  white-space: nowrap;
+}

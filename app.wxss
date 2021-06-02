@@ -14,3 +14,10 @@ page {
   background-color: var(--grayBgColor);
   box-sizing: border-box;
 }
+
+.title {
+  color: var(--otherTextColor);
+  font-size: var(--textSize);
+  padding: var(--spaceL);
+  display: block;
+}

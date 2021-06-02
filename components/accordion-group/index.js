@@ -7,7 +7,7 @@ BaseComponent({
   relations: {
     '/components/accordion/index': {
       type: 'child',
-      linked: function(target) {
+      linked() {
         const idxs = this.data.idxs
         idxs.push(idxs.length)
         this.setData({

@@ -1,0 +1,15 @@
+@import "../../theme.wxss";
+
+.yos-tab {
+  font-size: var(--h3Size);
+  color: var(--h3Color);
+  padding: var(--spaceM);
+}
+
+.active {
+  border-bottom: 4rpx solid var(--primaryColor);
+}
+
+.scroll {
+  display: inline-block;
+}

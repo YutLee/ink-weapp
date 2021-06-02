@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "Tabs 标签栏",
+  "usingComponents": {
+    "tabs": "/components/tabs/index",
+    "tab": "/components/tab/index",
+    "icon": "/components/icon/index"
+  }
+}

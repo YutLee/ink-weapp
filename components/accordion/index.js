@@ -7,7 +7,7 @@ BaseComponent({
   relations: {
     '../accordion-group/index': {
       type: 'parent',
-      linked: function(target) {
+      linked(target) {
         const idx = target.data.idxs.length - 1
         const show = target.data.active === idx
 

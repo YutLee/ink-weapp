@@ -7,7 +7,7 @@ BaseComponent({
   relations: {
     '/components/list/index': {
       type: 'child',
-      linked: function(target) {
+      linked(target) {
         if (!this.data.firstChild) {
           this.setData({
             firstChild: true

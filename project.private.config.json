@@ -65,6 +65,12 @@
           "pathName": "pages/navigation/nav-bar/index",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/navigation/tabs/index",
+          "pathName": "pages/navigation/tabs/index",
+          "query": "",
+          "scene": null
         }
       ]
     }

@@ -1,0 +1,35 @@
+<veiw class="title">常规tab</veiw>
+<tabs bindchange="onChange">
+  <tab title="tab1"></tab>
+  <tab title="tab2"></tab>
+  <tab title="tab3"></tab>
+</tabs>
+
+<veiw class="title">自定义tab</veiw>
+<tabs>
+  <tab>
+    <icon type="dianpu"></icon>
+    <text>首页</text>
+  </tab>
+  <tab>
+    <icon type="gouwuche"></icon>
+    <text>购物车</text>
+  </tab>
+  <tab>
+    <icon type="dingdan"></icon>
+    <text>订单</text>
+  </tab>
+</tabs>
+<veiw class="title">滚动tab</veiw>
+<tabs scroll="{{true}}">
+  <tab title="tab1"></tab>
+  <tab title="tab2"></tab>
+  <tab title="tab3"></tab>
+  <tab title="tab4"></tab>
+  <tab title="tab5"></tab>
+  <tab title="tab6"></tab>
+  <tab title="tab7"></tab>
+  <tab title="tab8"></tab>
+  <tab title="tab9"></tab>
+  <tab title="tab10"></tab>
+</tabs>

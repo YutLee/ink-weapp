@@ -1,0 +1,13 @@
+<scroll-view 
+  wx:if="{{scroll}}" 
+  scroll-x="true" 
+  scroll-y="{{direction === 'vertical'}}" 
+  class="yos-class yos-tabs scroll"
+  scroll-top="{{scrollTop}}"
+  scroll-left="{{scrollLeft}}"
+>
+  <slot></slot>
+</scroll-view>
+<view class="yos-class yos-tabs flex" wx:else>
+  <slot></slot>
+</view>
