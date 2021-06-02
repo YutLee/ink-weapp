@@ -1,0 +1,5 @@
+<view class="yos-class yos-timeline-item flex {{active ? 'active' : ''}}">
+  <view class="left"><slot name="left"></slot></view>
+  <view class="line"></view>
+  <view class="cell right"><slot></slot></view>
+</view>

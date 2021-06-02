@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Timeline 时间线",
+  "usingComponents": {
+    "timeline": "/components/timeline/index"
+  }
+}

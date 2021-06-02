@@ -10,7 +10,8 @@
     "pages/data-display/divider/index",
     "pages/data-display/countdown/index",
     "pages/data-display/card/index",
-    "pages/data-display/nothing/index"
+    "pages/data-display/nothing/index",
+    "pages/data-display/timeline/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,0 +1,51 @@
+@import "../../theme.wxss";
+
+.yos-timeline-item {
+  min-height: 100rpx;
+  font-size: var(--textSize);
+  color: var(--textColor);
+  line-height: var(--textLineHeight);
+}
+
+.line {
+  margin: 0 var(--spaceL);
+  position: relative;
+}
+
+.line:after {
+  content: '';
+  position: absolute;
+  width: 20rpx;
+  height: 20rpx;
+  border: 4rpx solid var(--borderColor);
+  border-radius: 50%;
+  transform: translate(-50%, 50%);
+  background-color: #fff;
+}
+
+.line:before {
+  content: '';
+  position: absolute;
+  top: 20rpx;
+  left: -2rpx;
+  bottom: -20rpx;
+  border-left: 4rpx solid var(--borderColor);
+}
+
+.yos-timeline-item:last-child .line:before {
+  border-left: none;
+}
+
+.left {
+  padding: var(--spaceS) 0;
+  width: 30%;
+  text-align: right;
+}
+
+.right {
+  padding: var(--spaceS) 0;
+}
+
+.yos-timeline-item.active .line:before, .yos-timeline-item.active .line:after {
+  border-color: var(--primaryColor); 
+}

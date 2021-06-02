@@ -1,0 +1,12 @@
+<timeline>
+  <text slot="left">2019-12-24</text>
+  <text>包裹已分配车辆及配送人员</text>
+</timeline>
+<timeline>
+  <text slot="left">2019-12-25</text>
+  <text>正在配送中，请注意查收</text>
+</timeline>
+<timeline active="{{true}}">
+  <text slot="left">2019-12-26</text>
+  <text>买家已确认收货，期待再次为您服务</text>
+</timeline>
