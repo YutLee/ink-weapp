@@ -93,6 +93,7 @@ page {
   --spaceL: 24rpx;
   --spaceXL: 32rpx;
   /* 尺寸 */
+  --sizeXS: 48rpx;
   --sizeS: 56rpx;
   --sizeM: 64rpx;
   --sizeL: 72rpx;

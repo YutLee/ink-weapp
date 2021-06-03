@@ -14,7 +14,8 @@
     "pages/data-display/timeline/index",
     "pages/navigation/nav-bar/index",
     "pages/navigation/tabs/index",
-    "pages/data-entry/input/index"
+    "pages/data-entry/input/index",
+    "pages/data-entry/input-number/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

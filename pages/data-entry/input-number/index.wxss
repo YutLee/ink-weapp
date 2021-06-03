@@ -1,0 +1,8 @@
+.input-number .add, .input-number .cut {
+  color: var(--primaryColor);
+  border-radius: 50%;
+}
+
+.input-number .input {
+  border: none;
+}

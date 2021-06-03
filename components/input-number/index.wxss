@@ -1,0 +1,32 @@
+@import "../../theme.wxss";
+
+.yos-input-number {
+  display: inline-flex;
+  width: 200rpx;
+}
+
+.cut, .add {
+  border: 1rpx solid var(--borderColor);
+  width: var(--sizeXS);
+  height: var(--sizeXS);
+  line-height: var(--sizeXS);
+  text-align: center;
+}
+
+.input, .cover {
+  text-align: center;
+  border-top: 1rpx solid var(--borderColor);
+  border-bottom: 1rpx solid var(--borderColor);
+  font-size: var(--textSize);
+  color: var(--textColor);
+  height: var(--sizeXS);
+  line-height: var(--sizeXS);
+}
+
+.disabled .input, 
+.disabled .cut, 
+.disabled .add,
+.disabled.cut, 
+.disabled.add {
+  color: var(--disabledColor);
+}

@@ -1,0 +1,16 @@
+<view class="title">默认</view>
+<list arrow="{{false}}">
+  <input-number />
+</list>
+<view class="title">设置步长为0.5</view>
+<list arrow="{{false}}">
+  <input-number step="{{0.5}}" />
+</list>
+<view class="title">设置可输入</view>
+<list arrow="{{false}}">
+  <input-number edit-able="{{true}}" value="{{5}}" />
+</list>
+<view class="title">自定义样式</view>
+<list arrow="{{false}}">
+  <input-number yos-class="input-number" yos-cut-class="cut" yos-add-class="add" yos-input-class="input" />
+</list>

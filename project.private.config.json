@@ -77,6 +77,12 @@
           "pathName": "pages/data-entry/input/index",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/data-entry/input-number/index",
+          "pathName": "pages/data-entry/input-number/index",
+          "query": "",
+          "scene": null
         }
       ]
     }
