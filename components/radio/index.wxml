@@ -1,0 +1,13 @@
+<view bindtap="onTap" bindtap="onTap" class="yos-class flex inline-flex item-c yos-raido {{checked ? 'yos-checked-class' : ''}} {{disabled ? 'disabled' : ''}}">
+  <view wx:if="{{direction === 'right'}}" class="cell">
+    <slot></slot>
+  </view>
+  <icon yos-class="icon" type="{{checkedIcon}}" wx:if="{{checked}}" />
+  <icon yos-class="icon" type="{{icon}}" wx:else />
+  <block wx:if="{{direction === 'left'}}">
+    <view class="label cell" wx:if="{{label}}">{{label}}</view>
+    <view class="cell" wx:else>
+      <slot></slot>
+    </view>
+  </block>
+</view>

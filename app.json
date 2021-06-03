@@ -15,7 +15,8 @@
     "pages/navigation/nav-bar/index",
     "pages/navigation/tabs/index",
     "pages/data-entry/input/index",
-    "pages/data-entry/input-number/index"
+    "pages/data-entry/input-number/index",
+    "pages/data-entry/radio/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -21,3 +21,8 @@ page {
   padding: var(--spaceL);
   display: block;
 }
+
+.panel {
+  padding: var(--spaceL);
+  background-color: var(--bgColor);
+}

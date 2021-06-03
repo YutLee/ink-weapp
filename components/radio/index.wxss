@@ -1,0 +1,59 @@
+@import '../../theme.wxss';
+
+.yos-list {
+  background-color: var(--bgColor);
+  padding: var(--spaceL);
+  font-size: var(--textSize);
+}
+
+.yos-list.in-group {
+  position: relative;
+}
+
+.yos-list.in-group:before {
+  content: '';
+  position: absolute;
+  left: var(--spaceL);
+  right: 0;
+  top: 0;
+  border-top: 1rpx solid var(--borderColor);
+}
+
+.yos-list.outline {
+  border-top: 1rpx solid var(--borderColor);
+  border-bottom: 1rpx solid var(--borderColor);
+}
+
+.yos-list.disabled, 
+.yos-list.disabled .arrow, 
+.yos-list.disabled .desc, 
+.yos-list.disabled .value {
+  color: var(--disabledColor);
+}
+
+.thumb {
+  width: var(--sizeS);
+  height: var(--sizeS);
+  margin-right: var(--spaceM);
+}
+
+.icon {
+  margin-right: var(--spaceM);
+}
+
+.desc, .value {
+  color: var(--subTextColor);
+}
+
+.desc {
+  font-size: var(--subTextSize);
+}
+
+.footer {
+  text-align: right;
+  padding: 0 var(--spaceM);
+}
+
+.arrow {
+  color: var(--subTextColor);
+}

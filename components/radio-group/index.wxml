@@ -1,0 +1,3 @@
+<view class="yos-class yos-radio-group">
+  <slot></slot>
+</view>
