@@ -89,6 +89,12 @@
           "pathName": "pages/data-entry/radio/index",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/data-entry/checkbox/index",
+          "pathName": "pages/data-entry/checkbox/index",
+          "query": "",
+          "scene": null
         }
       ]
     }

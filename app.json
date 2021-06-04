@@ -16,7 +16,8 @@
     "pages/navigation/tabs/index",
     "pages/data-entry/input/index",
     "pages/data-entry/input-number/index",
-    "pages/data-entry/radio/index"
+    "pages/data-entry/radio/index",
+    "pages/data-entry/checkbox/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
