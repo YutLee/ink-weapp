@@ -24,7 +24,7 @@ BaseComponent({
       }
     }
   },
-  externalClasses: ['yos-checked-class', 'yos-icon-class', 'yos-checked-icon-class'],
+  externalClasses: ['ink-checked-class', 'ink-icon-class', 'ink-checked-icon-class'],
   properties: {
     icon: {
       type: String,

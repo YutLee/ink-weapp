@@ -2,8 +2,8 @@ import computedBehavior from './computedBehavior'
 
 const BaseComponent = (options = {}) => {
   options.externalClasses = [
-    'yos-class',
-    'yos-hover-class',
+    'ink-class',
+    'ink-hover-class',
     ...(options.externalClasses = options.externalClasses || []),
   ]
 
@@ -16,8 +16,8 @@ const BaseComponent = (options = {}) => {
   options.options = {
     virtualHost: true,
     multipleSlots: true,
-    addGlobalClass: true,
-    styleIsolation: 'apply-shared',
+    // addGlobalClass: true,
+    // styleIsolation: 'apply-shared',
     ...options.options,
   }
 

@@ -34,7 +34,7 @@ const getValidValue = (value, min, max) => {
 let timer
 
 BaseComponent({
-  externalClasses: ['yos-input-class', 'yos-add-class', 'yos-cut-class'],
+  externalClasses: ['ink-input-class', 'ink-add-class', 'ink-cut-class'],
   properties: {
     value: {
       type: Number,

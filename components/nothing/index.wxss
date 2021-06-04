@@ -1,6 +1,6 @@
 @import "../../theme.wxss";
 
-.yos-nothing {
+.ink-nothing {
   height: 100%;
   text-align: center;
 }

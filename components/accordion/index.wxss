@@ -1,6 +1,6 @@
 @import "../../theme.wxss";
 
-.yos-accordion .header {
+.ink-accordion .header {
   padding: var(--spaceL);
   font-size: var(--textSize);
 }

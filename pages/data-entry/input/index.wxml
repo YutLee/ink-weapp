@@ -23,7 +23,7 @@
   <input label="姓名" placeholder="带Label输入框" clear="{{true}}" />
 </list>
 <view class="title">输入框组</view>
-<list-group outline="{{true}}" yos-class="list-group">
+<list-group outline="{{true}}" ink-class="list-group">
   <list arrow="{{false}}">
     <input label="账号" placeholder="带Label输入框" clear="{{true}}" />
   </list>

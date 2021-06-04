@@ -1,4 +1,4 @@
-<view class="yos-class yos-card {{full ? '' : 'normal'}} {{outline ? 'outline' : ''}}">
+<view class="ink-class ink-card {{full ? '' : 'normal'}} {{outline ? 'outline' : ''}}">
   <list 
     thumb="{{thumb}}" 
     icon="{{icon}}" 
@@ -6,7 +6,7 @@
     arrow="{{arrow}}" 
     label="{{title}}" 
     value="{{extra}}" 
-    yos-class="header"
+    ink-class="header"
   ></list>
   <view class="content">
     <slot></slot>

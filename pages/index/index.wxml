@@ -1,14 +1,37 @@
 <accordion title="Basic 基础组件">
   <list-group>
-    <list label="按钮" url="/pages/basic/button/index"></list>
-    <list label="图标" url="/pages/basic/icon/index"></list>
+    <list label="Button 按钮" url="/pages/basic/button/index"></list>
+    <list label="Icon 图标" url="/pages/basic/icon/index"></list>
   </list-group>
 </accordion>
 
 <accordion title="Data Display 数据展示">
   <list-group>
-    <list label="手风琴" url="/pages/data-display/accordion/index"></list>
-    <list label="列表" url="/pages/data-display/list/index"></list>
-    <list label="徽章" url="/pages/data-display/badge/index"></list>
+    <list label="Accordion 手风琴" url="/pages/data-display/accordion/index"></list>
+    <list label="Badge 徽章" url="/pages/data-display/badge/index"></list>
+    <list label="Card 卡片" url="/pages/data-display/card/index"></list>
+    <list label="Countdown 倒计时" url="/pages/data-display/countdown/index"></list>
+    <list label="Divider 分割线" url="/pages/data-display/divider/index"></list>
+    <list label="List 列表" url="/pages/data-display/list/index"></list>
+    <list label="Nothing 缺省" url="/pages/data-display/nothing/index"></list>
+    <list label="Tag 标签" url="/pages/data-display/tag/index"></list>
+    <list label="Timeline 时间线" url="/pages/data-display/timeline/index"></list>
+  </list-group>
+</accordion>
+
+<accordion title="Data Entry 数据录入">
+  <list-group>
+    <list label="Checkbox 复选框" url="/pages/data-entry/checkbox/index"></list>
+    <list label="Input 输入框" url="/pages/data-entry/input/index"></list>
+    <list label="InputNumber 数字输入框" url="/pages/data-entry/input-number/index"></list>
+    <list label="Radio 单选框" url="/pages/data-entry/radio/index"></list>
+    <list label="Switch 开关" url="/pages/data-entry/switch/index"></list>
+  </list-group>
+</accordion>
+
+<accordion title="Navigation 导航">
+  <list-group>
+    <list label="NavBar 导航栏" url="/pages/navigation/nav-bar/index"></list>
+    <list label="Tabs 标签栏" url="/pages/navigation/tabs/index"></list>
   </list-group>
 </accordion>

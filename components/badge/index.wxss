@@ -1,6 +1,6 @@
 @import "../../theme.wxss";
 
-.yos-badge {
+.ink-badge {
   position: relative;
   display: inline-block;
 }

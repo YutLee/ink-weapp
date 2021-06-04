@@ -1,6 +1,6 @@
 @import "../../theme.wxss";
 
-.yos-input {
+.ink-input {
   background-color: var(--bgColor);
   font-size: var(--textSize);
   color: var(--textColor);

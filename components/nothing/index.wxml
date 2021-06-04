@@ -1,7 +1,7 @@
-<view class="yos-class yos-nothing flex jcc item-c">
+<view class="ink-class ink-nothing flex jcc item-c">
   <view>
     <image wx:if="{{thumb}}" class="thumb" src="{{thumb}}" />
-    <icon wx:elif="{{icon}}" yos-class="icon" type="{{icon}}" />
+    <icon wx:elif="{{icon}}" ink-class="icon" type="{{icon}}" />
     <view wx:if="{{title}}" class="title">{{title}}</view>
     <view wx:if="{{desc}}" class="desc">{{desc}}</view>
     <view class="more">

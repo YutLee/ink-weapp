@@ -1,6 +1,6 @@
 @import "../../theme.wxss";
 
-.yos-input-number {
+.ink-input-number {
   display: inline-flex;
   width: 200rpx;
 }

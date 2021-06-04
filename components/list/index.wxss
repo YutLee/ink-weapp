@@ -1,16 +1,16 @@
 @import '../../theme.wxss';
 
-.yos-list {
+.ink-list {
   background-color: var(--bgColor);
   padding: var(--spaceL);
   font-size: var(--textSize);
 }
 
-.yos-list.in-group {
+.ink-list.in-group {
   position: relative;
 }
 
-.yos-list.in-group:before {
+.ink-list.in-group:before {
   content: '';
   position: absolute;
   left: var(--spaceL);
@@ -19,15 +19,15 @@
   border-top: 1rpx solid var(--borderColor);
 }
 
-.yos-list.outline {
+.ink-list.outline {
   border-top: 1rpx solid var(--borderColor);
   border-bottom: 1rpx solid var(--borderColor);
 }
 
-.yos-list.disabled, 
-.yos-list.disabled .arrow, 
-.yos-list.disabled .desc, 
-.yos-list.disabled .value {
+.ink-list.disabled, 
+.ink-list.disabled .arrow, 
+.ink-list.disabled .desc, 
+.ink-list.disabled .value {
   color: var(--disabledColor);
 }
 

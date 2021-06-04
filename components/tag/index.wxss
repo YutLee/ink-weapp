@@ -1,6 +1,6 @@
 @import "../../theme.wxss";
 
-.yos-tag {
+.ink-tag {
   display: inline-block;
   font-size: var(--otherTextSize);
   color: var(--otherTextColor);
@@ -36,7 +36,7 @@
   background-color: var(--infoColor);
 }
 
-.yos-tag.outline {
+.ink-tag.outline {
   border: 1rpx solid var(--borderColor);
 }
 
@@ -64,6 +64,6 @@
   background-color: var(--brightInfoColor);
 }
 
-.yos-tag.radius {
+.ink-tag.radius {
   border-radius: var(--otherLineHeight);
 }

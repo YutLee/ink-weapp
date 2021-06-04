@@ -12,5 +12,5 @@
 </list>
 <view class="title">自定义样式</view>
 <list arrow="{{false}}">
-  <input-number yos-class="input-number" yos-cut-class="cut" yos-add-class="add" yos-input-class="input" />
+  <input-number ink-class="input-number" ink-cut-class="cut" ink-add-class="add" ink-input-class="input" />
 </list>

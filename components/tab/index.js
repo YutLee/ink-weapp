@@ -42,7 +42,7 @@ BaseComponent({
       if (!this.data.scroll) {
         parent.onItemClick(this.data.idx)
       } else {
-        this.createSelectorQuery().select('.yos-tab').boundingClientRect(res => {
+        this.createSelectorQuery().select('.ink-tab').boundingClientRect(res => {
           parent.onItemClick(this.data.idx, res)
         }).exec()
       }

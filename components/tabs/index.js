@@ -49,7 +49,7 @@ BaseComponent({
       const { active, scroll, direction } = this.data
       
       if (scroll) {
-        this.createSelectorQuery().select('.yos-tabs').scrollOffset((res) => {
+        this.createSelectorQuery().select('.ink-tabs').scrollOffset((res) => {
           const info = wx.getSystemInfoSync()
           if (ele && res) {
             if (direction === 'horizontal') {

@@ -1,6 +1,6 @@
-<view bindtap="onTap" class="yos-class flex item-c yos-list {{outline ? 'outline' : ''}} {{inGroup ? 'in-group' : ''}} {{disabled ? 'disabled' : ''}}">
+<view bindtap="onTap" class="ink-class flex item-c ink-list {{outline ? 'outline' : ''}} {{inGroup ? 'in-group' : ''}} {{disabled ? 'disabled' : ''}}">
   <image wx:if="{{thumb}}" class="thumb" src="{{thumb}}" />
-  <icon wx:elif="{{icon}}" yos-class="icon" type="{{icon}}" />
+  <icon wx:elif="{{icon}}" ink-class="icon" type="{{icon}}" />
   <slot wx:else name="header"></slot>
   <view class="content cell">
     <view wx:if="{{label}}" class="label">{{label}}</view>
@@ -13,5 +13,5 @@
       <slot name="value"></slot>
     </block>
   </view>
-  <icon wx:if="{{arrow}}" yos-class="arrow" type="xiangyou1"></icon>
+  <icon wx:if="{{arrow}}" ink-class="arrow" type="xiangyou1"></icon>
 </view>

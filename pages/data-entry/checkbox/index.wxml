@@ -12,9 +12,9 @@
 
 <view class="title">自定义图标和样式</view>
 <view class="panel">
-  <checkbox yos-checked-class="checked" yos-class="checkbox" icon="" checked-icon="xuanze" checked="{{true}}" value="北京" direction="right" bindchange="onChange">北京</checkbox>
+  <checkbox ink-checked-class="checked" ink-class="checkbox" icon="" checked-icon="xuanze" checked="{{true}}" value="北京" direction="right" bindchange="onChange">北京</checkbox>
   <view></view>
-  <checkbox yos-checked-class="checked" yos-class="checkbox" icon="" checked-icon="xuanze" value="深圳" direction="right" bindchange="onChange">深圳</checkbox>
+  <checkbox ink-checked-class="checked" ink-class="checkbox" icon="" checked-icon="xuanze" value="深圳" direction="right" bindchange="onChange">深圳</checkbox>
 </view>
 
 <view class="title">全选</view>

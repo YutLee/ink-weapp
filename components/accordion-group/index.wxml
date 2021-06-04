@@ -1,1 +1,1 @@
-<view class="yos-class yos-accordion-group"><slot></slot></view>
+<view class="ink-class ink-accordion-group"><slot></slot></view>

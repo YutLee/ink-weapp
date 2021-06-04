@@ -1,5 +1,5 @@
 <button
-  class="yos-class yos-button"
+  class="ink-class ink-button"
   data-radius="{{radius}}"
   size="{{size}}"
   type="{{type}}"
@@ -8,7 +8,7 @@
   loading="{{loading}}"
   form-type="{{formType}}"
   open-type="{{openType}}"
-  hover-class="yos-hover-class hover-class {{hoverClass}}"
+  hover-class="ink-hover-class hover-class {{hoverClass}}"
   hover-stop-propagation="{{hoverStopPropagation}}"
   hover-start-time="{{hoverStartTime}}"
   hover-stay-time="{{hoverStayTime}}"
@@ -21,6 +21,6 @@
   show-message-card="{{showMessageCard}}"
   bindtap="onTap"
 >
-  <icon wx:if="{{icon}}" type="{{icon}}" yos-class="button-icon" />
+  <icon wx:if="{{icon}}" type="{{icon}}" ink-class="button-icon" />
   <slot></slot>
 </button>

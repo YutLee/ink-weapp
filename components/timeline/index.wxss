@@ -1,6 +1,6 @@
 @import "../../theme.wxss";
 
-.yos-timeline-item {
+.ink-timeline-item {
   min-height: 100rpx;
   font-size: var(--textSize);
   color: var(--textColor);
@@ -32,7 +32,7 @@
   border-left: 4rpx solid var(--borderColor);
 }
 
-.yos-timeline-item:last-child .line:before {
+.ink-timeline-item:last-child .line:before {
   border-left: none;
 }
 
@@ -46,6 +46,6 @@
   padding: var(--spaceS) 0;
 }
 
-.yos-timeline-item.active .line:before, .yos-timeline-item.active .line:after {
+.ink-timeline-item.active .line:before, .ink-timeline-item.active .line:after {
   border-color: var(--primaryColor); 
 }

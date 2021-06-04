@@ -18,8 +18,8 @@
 <view class="title">自定义图标和样式</view>
 <view class="panel">
   <radio-group value="1" bindchange="onChange">
-    <radio yos-checked-class="checked" yos-class="radio" value="1" direction="right" icon="" checked-icon="xuanze">男</radio>
+    <radio ink-checked-class="checked" ink-class="radio" value="1" direction="right" icon="" checked-icon="xuanze">男</radio>
     <view class="line"></view>
-    <radio yos-checked-class="checked" yos-class="radio" value="2" direction="right" icon="" checked-icon="xuanze">女</radio>
+    <radio ink-checked-class="checked" ink-class="radio" value="2" direction="right" icon="" checked-icon="xuanze">女</radio>
   </radio-group>
 </view>

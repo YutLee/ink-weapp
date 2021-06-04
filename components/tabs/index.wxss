@@ -1,14 +1,14 @@
 @import "../../theme.wxss";
 
-.yos-tabs {
+.ink-tabs {
   background-color: var(--bgColor);
 }
 
-.yos-tabs.flex {
+.ink-tabs.flex {
   justify-content: space-around;
 }
 
-.yos-tabs.scroll {
+.ink-tabs.scroll {
   display: block;
   overflow: auto;
   white-space: nowrap;

@@ -1,7 +1,7 @@
-<view class="yos-class yos-badge {{status}} {{processing ? 'processing' : ''}}" wx:if="{{wrap}}">
+<view class="ink-class ink-badge {{status}} {{processing ? 'processing' : ''}}" wx:if="{{wrap}}">
   <slot></slot>
   <text class="dot wrap" wx:if="{{dot || (count === 0 && !showZero)}}"></text>
   <text class="count wrap" wx:else>{{finalCount}}</text>
 </view>
-<text class="yos-class yos-badge dot {{status}} {{processing ? 'processing' : ''}}" wx:elif="{{dot || (count === 0 && !showZero)}}"></text>
-<text class="yos-class yos-badge count {{status}} {{processing ? 'processing' : ''}}" wx:else>{{finalCount}}</text>
+<text class="ink-class ink-badge dot {{status}} {{processing ? 'processing' : ''}}" wx:elif="{{dot || (count === 0 && !showZero)}}"></text>
+<text class="ink-class ink-badge count {{status}} {{processing ? 'processing' : ''}}" wx:else>{{finalCount}}</text>

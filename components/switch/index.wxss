@@ -1,6 +1,6 @@
 @import "../../theme.wxss";
 
-.yos-switch {
+.ink-switch {
   display: inline-block;
   width: var(--sizeXL);
   height: var(--sizeXS);
@@ -9,7 +9,7 @@
   position: relative;
 }
 
-.yos-switch-button {
+.ink-switch-button {
   width: var(--sizeXXS);
   height: var(--sizeXXS);
   background-color: var(--bgColor);
@@ -20,18 +20,18 @@
   transition: all .2s ease-in-out;
 }
 
-.yos-switch.checked {
+.ink-switch.checked {
   background-color: var(--primaryColor);
 }
 
-.yos-switch.checked .yos-switch-button {
+.ink-switch.checked .ink-switch-button {
   left: calc(100% - var(--sizeXXS) - 6rpx);
 }
 
-.yos-switch.disabled {
+.ink-switch.disabled {
   background-color: var(--disabledColor);
 }
 
-.yos-switch.disabled.checked {
+.ink-switch.disabled.checked {
   background-color: var(--brightPrimaryColor);
 }

@@ -1,9 +1,9 @@
-<view bindtap="onTap" bindtap="onTap" class="yos-class flex inline-flex item-c yos-checkbox {{currentChecked ? 'yos-checked-class checked' : ''}} {{disabled ? 'disabled' : ''}}">
+<view bindtap="onTap" bindtap="onTap" class="ink-class flex inline-flex item-c ink-checkbox {{currentChecked ? 'ink-checked-class checked' : ''}} {{disabled ? 'disabled' : ''}}">
   <view wx:if="{{direction === 'right'}}" class="cell">
     <slot></slot>
   </view>
-  <icon yos-class="icon" type="{{checkedIcon}}" wx:if="{{currentChecked}}" />
-  <icon yos-class="icon" type="{{icon}}" wx:else />
+  <icon ink-class="icon" type="{{checkedIcon}}" wx:if="{{currentChecked}}" />
+  <icon ink-class="icon" type="{{icon}}" wx:else />
   <block wx:if="{{direction === 'left'}}">
     <view class="label cell" wx:if="{{label}}">{{label}}</view>
     <view class="cell" wx:else>

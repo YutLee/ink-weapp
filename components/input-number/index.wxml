@@ -1,11 +1,11 @@
-<view class="yos-class yos-input-number flex item-c {{disabled ? 'disabled' : ''}}">
-  <view class="cut yos-cut-class {{disabledMin ? 'disabled' : ''}}" bindtap="onCut">
+<view class="ink-class ink-input-number flex item-c {{disabled ? 'disabled' : ''}}">
+  <view class="cut ink-cut-class {{disabledMin ? 'disabled' : ''}}" bindtap="onCut">
     <icon type="jianhao"></icon>
   </view>
   <input 
     wx:if="{{autoFocus}}"
     type="number" 
-    class="yos-input-class input cell" 
+    class="ink-input-class input cell" 
     value="{{inputValue}}" 
     auto-focus="{{autoFocus}}"
     selection-start="{{0}}"
@@ -15,8 +15,8 @@
     bindblur="onBlur"
     disabled="{{disabled}}"
   />
-  <view class="yos-input-class cover cell" wx:else bindtouchstart="onTouchStart">{{inputValue}}</view>
-  <view class="add yos-add-class {{disabledMax ? 'disabled' : ''}}" bindtap="onAdd">
+  <view class="ink-input-class cover cell" wx:else bindtouchstart="onTouchStart">{{inputValue}}</view>
+  <view class="add ink-add-class {{disabledMax ? 'disabled' : ''}}" bindtap="onAdd">
     <icon type="jiahao1"></icon>
   </view>
 </view>

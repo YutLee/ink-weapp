@@ -1,6 +1,6 @@
 @import "../../theme.wxss";
 
-.yos-card {
+.ink-card {
   background-color: var(--bgColor);
 }
 

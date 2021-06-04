@@ -1,4 +1,4 @@
-<view class="yos-class yos-input flex item-c {{outline ? 'outline' : ''}} {{status}} {{disabled ? 'disabled' : ''}}">
+<view class="ink-class ink-input flex item-c {{outline ? 'outline' : ''}} {{status}} {{disabled ? 'disabled' : ''}}">
   <view wx:if="{{label}}" class="label">{{label}}</view>
   <view class="inner cell">
     <input 
@@ -28,6 +28,6 @@
       bindconfirm="onConfirm"
     />
   </view>
-  <icon yos-class="clear" type="guanbi2fill" wx:if="{{clear && showClear}}" bindtap="onClear"></icon>
+  <icon ink-class="clear" type="guanbi2fill" wx:if="{{clear && showClear}}" bindtap="onClear"></icon>
   <view wx:if="{{extra}}" class="extra">{{extra}}</view>
 </view>

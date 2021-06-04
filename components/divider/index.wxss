@@ -1,6 +1,6 @@
 @import '../../theme.wxss';
 
-.yos-divider {
+.ink-divider {
   font-size: var(--subTextSize);
   color: var(--subTextColor);
   text-align: center;

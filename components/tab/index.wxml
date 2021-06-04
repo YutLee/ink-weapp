@@ -1,4 +1,4 @@
-<view class="yos-class yos-tab flex item-c {{active ? 'active' : ''}} {{scroll ? 'scroll' : ''}}" bindtap="onTap">
+<view class="ink-class ink-tab flex item-c {{active ? 'active' : ''}} {{scroll ? 'scroll' : ''}}" bindtap="onTap">
   <text wx:if="{{title}}">{{title}}</text>
   <slot></slot>
 </view>

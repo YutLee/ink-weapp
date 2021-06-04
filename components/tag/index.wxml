@@ -1,4 +1,4 @@
-<view class="yos-class yos-tag {{status}} {{outline ? 'outline' : ''}} {{radius ? 'radius' : ''}}">
+<view class="ink-class ink-tag {{status}} {{outline ? 'outline' : ''}} {{radius ? 'radius' : ''}}">
   <slot></slot>
-  <icon wx:if="{{closeAble}}" type="{{closeIcon || 'guanbi1'}}" yos-class="close" bindtap="onClose"></icon>
+  <icon wx:if="{{closeAble}}" type="{{closeIcon || 'guanbi1'}}" ink-class="close" bindtap="onClose"></icon>
 </view>

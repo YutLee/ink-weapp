@@ -1,1 +1,1 @@
-<view class="yos-class iconfont icon-{{type}}" style="{{style}}"></view>
+<view class="ink-class iconfont icon-{{type}}" style="{{style}}"></view>

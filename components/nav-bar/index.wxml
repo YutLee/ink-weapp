@@ -1,5 +1,5 @@
 <status-bar wx:if="{{statusBar}}"></status-bar>
-<view class="yos-class nav-bar {{outline ? 'outline' : ''}}">
-  <icon yos-class="back" type="{{backIcon}}" bindtap="onBack" wx:if="{{backIcon}}"></icon>
+<view class="ink-class nav-bar {{outline ? 'outline' : ''}}">
+  <icon ink-class="back" type="{{backIcon}}" bindtap="onBack" wx:if="{{backIcon}}"></icon>
   <text><slot></slot></text>
 </view>

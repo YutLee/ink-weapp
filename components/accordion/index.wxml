@@ -1,9 +1,9 @@
-<view class="yos-class yos-accordion">
+<view class="ink-class ink-accordion">
   <view class="header flex item-c" bindtap="onTap">
     <image wx:if="{{thumb}}" class="thumb" src="{{thumb}}" />
     <view wx:if="{{title}}" class="cell title">{{title}}</view>
     <slot name="header"></slot>
-    <icon yos-class="arrow {{show ? 'open' : ''}}" wx:if="{{icon}}" type="{{icon}}"></icon>
+    <icon ink-class="arrow {{show ? 'open' : ''}}" wx:if="{{icon}}" type="{{icon}}"></icon>
   </view>
   <view class="wrapper" hidden="{{!show}}">
     <view wx:if="{{content}}" class="content">{{content}}</view>
