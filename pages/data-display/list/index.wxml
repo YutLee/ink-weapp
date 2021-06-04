@@ -14,7 +14,7 @@
 <list label="列表" desc="这是描述" value="这是一个普通列表" arrow="{{false}}"></list>
 
 <text class="title">带图片列表</text>
-<list thumb="/images/logo.png" label="列表" value="这是一个带图片列表"></list>
+<list thumb="/images/logo.jpg" label="列表" value="这是一个带图片列表"></list>
 
 <text class="title">带图标列表</text>
 <list icon="gouwuche" label="列表" value="这是一个带图标列表"></list>
