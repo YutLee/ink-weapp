@@ -14,5 +14,12 @@ BaseComponent({
       type: Boolean,
       value: true
     }
+  },
+  methods: {
+    onBack () {
+      wx.navigateBack({
+        delta: 0
+      })
+    }
   }
 })
