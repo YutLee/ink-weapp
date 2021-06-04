@@ -1,0 +1,3 @@
+<view class="yos-class yos-switch {{checked ? 'checked' : ''}} {{disabled ? 'disabled' : ''}}" bindtap="onTap">
+  <view class="yos-switch-button"></view>
+</view>

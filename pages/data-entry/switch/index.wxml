@@ -1,0 +1,16 @@
+<view class="title">关</view>
+<view class="panel">
+  <switch bindchange="onChange" />
+</view>
+<view class="title">开</view>
+<view class="panel">
+  <switch checked="{{true}}" />
+</view>
+<view class="title">关禁用</view>
+<view class="panel">
+  <switch disabled />
+</view>
+<view class="title">开禁用</view>
+<view class="panel">
+  <switch checked="{{true}}" disabled />
+</view>
