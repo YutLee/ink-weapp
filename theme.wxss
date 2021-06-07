@@ -76,11 +76,16 @@ page {
   --smallLineHeight: 24rpx;
   /* 阴影颜色 */
   --shadowColor: rgba(0, 0, 0, .4);
-  /* 深度/阴影 */
+  /* 阴影 */
   --depthS: 0 2rpx 8rpx rgba(0, 0, 0, 0.1);
   --depthM: 0 8rpx 16rpx rgba(0, 0, 0, 0.14);
   --depthL: 0 16rpx 32rpx rgba(0, 0, 0, 0.14);
   --depthXL: 0 32rpx 64rpx rgba(0, 0, 0, 0.22);
+  /* 深度 */
+  --zIndexS: 1; 
+  --zIndexM: 10; 
+  --zIndexL: 20; 
+  --zIndexXL: 30; 
   /* 圆角 */
   --radiusS: 4rpx;
   --radiusM: 8rpx;

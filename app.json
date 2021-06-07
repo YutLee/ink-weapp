@@ -18,7 +18,8 @@
     "pages/data-entry/input-number/index",
     "pages/data-entry/radio/index",
     "pages/data-entry/checkbox/index",
-    "pages/data-entry/switch/index"
+    "pages/data-entry/switch/index",
+    "pages/data-entry/actionsheet/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

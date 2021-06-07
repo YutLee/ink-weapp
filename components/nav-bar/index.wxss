@@ -1,12 +1,18 @@
 @import "../../theme.wxss";
 
+.nav-bar-sticky {
+  position: sticky;
+  top: 0;
+  z-index: var(--zIndexM);
+}
+
 .nav-bar {
   background-color: var(--bgColor);
   height: 88rpx;
   box-sizing: content-box;
   text-align: center;
-  position: relative;
   line-height: 88rpx;
+  position: relative;
 }
 
 .outline {

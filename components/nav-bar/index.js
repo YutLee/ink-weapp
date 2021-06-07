@@ -13,6 +13,10 @@ BaseComponent({
     outline: {
       type: Boolean,
       value: true
+    },
+    sticky: {
+      type: Boolean,
+      value: true
     }
   },
   methods: {

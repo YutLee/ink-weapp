@@ -1,1 +1,3 @@
-/* pages/navigation/nav-bar/index.wxss */
+.content {
+  height: 1000px;
+}

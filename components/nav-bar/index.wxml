@@ -1,5 +1,7 @@
-<status-bar wx:if="{{statusBar}}"></status-bar>
-<view class="ink-class nav-bar {{outline ? 'outline' : ''}}">
-  <icon ink-class="back" type="{{backIcon}}" bindtap="onBack" wx:if="{{backIcon}}"></icon>
-  <text><slot></slot></text>
+<view class="{{sticky ? 'nav-bar-sticky' : ''}}">
+  <status-bar wx:if="{{statusBar}}"></status-bar>
+  <view class="ink-class nav-bar {{outline ? 'outline' : ''}}">
+    <icon ink-class="back" type="{{backIcon}}" bindtap="onBack" wx:if="{{backIcon}}"></icon>
+    <view><slot></slot></view>
+  </view>
 </view>
